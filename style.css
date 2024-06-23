@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.game-container {
+    margin-bottom: 20px;
+}
+
+canvas {
+    background-color: #333;
+}
+
+.leaderboard-container {
+    text-align: center;
+}
+
+#leaderboard {
+    list-style-type: none;
+    padding: 0;
+}
+
+#leaderboard li {
+    background: #444;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
